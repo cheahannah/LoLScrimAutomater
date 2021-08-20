@@ -37,7 +37,6 @@ This should be a quick and seamless process to save time for the team
 ### Individual Stats
 - For each player, indicate the relative difference of the CLG player and the respective enemy player
     - [Top, Jungle, Mid, AD, Support]
-        - gonna need another data set
     - CSD@10 - Creep Score Difference at 10 minutes
 	- GD@10 - Gold Difference at 10 minutes 
         - <code>'currentgold'</code> from <code>Team One/Two</code> (for each player, but doesn't tell what lane is each player)
@@ -54,3 +53,14 @@ This should be a quick and seamless process to save time for the team
 ### Bonus
 - Isolated Deaths
     - Total count of deaths of a player when he’s isolated from the rest of the team
+
+# How to use:
+1) Download one of the 2 files here (I put 2 formats because I personally like iPython notebooks but there's also a straight Python file)
+2) Download 1 game (folder of 7000 JSON files) from Bayes Esports
+3) Copy directory address of game folder
+4) Paste address into last function (scrim_automater) & run file
+5) Save output as a .csv file
+6) Open .csv file & copy & paste contents into Google Spreadsheet
+
+# Things to change
+1) The 2 objective functions, I use a player to identify which team - change the player to be someone from the current year's roster
